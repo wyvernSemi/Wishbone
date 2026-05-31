@@ -101,7 +101,8 @@ port (
   -- temporary.   Will move to package
   function to_integer_null_is0 (A : std_logic_vector) return integer is
   begin
-    if A'length = 0 then 
+    -- return 0 when data is a byte or address is X
+    if A'length = 0 or is_x(A) then 
       return 0 ; 
     else
       return to_integer(A) ;
