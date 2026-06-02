@@ -1,17 +1,17 @@
-# AXI4 Verification Component Change Log
+# Wishbone Verification Component Change Log
 
 | Revision  |  Release Summary |   
 ------------|----------- 
+| 2026.05   |  Updated to_integer_null_is0 to return 0 when address is X
 | 2025.04   |  Initial public release
 
 ## 2025.04 April 2025
 Beta Release
 
 
- 
 ## Copyright and License
-Copyright (C) 2025 by [SynthWorks Design Inc.](http://www.synthworks.com/)   
-Copyright (C) 2025 by [OSVVM contributors](CONTRIBUTOR.md)   
+Copyright (C) 2025 to 2026 by [SynthWorks Design Inc.](http://www.synthworks.com/)   
+Copyright (C) 2025 to 2026 by [OSVVM contributors](CONTRIBUTOR.md)   
 
 This file is part of OSVVM.
 
